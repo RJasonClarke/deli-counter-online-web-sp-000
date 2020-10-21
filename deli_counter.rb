@@ -1,8 +1,23 @@
 def line(katz_deli)
-  array = []
-  count = 0
+new_arr = []
+count = 0
 
-  puts "The line is currently empty."
+if katz_deli.length == 0
+return "The line is currently empty."
+else
+katz_deli.each do |name|
 
-  array << ("The line is currently: #{count += 1}. #{name}")
-  end
+new_arr << ("#{count += 1}. #{name}")
+
+end
+end
+return "The line is currently: #{new_arr.join(" ")}"
+ end
+
+print line (["Logan", "Avi", "Spencer", "James", "Kevin", "Sarah", "Bob", "Jim"])
+# print line ([])
+
+def take_a_number(katz_deli, name)
+
+
+end
