@@ -8,3 +8,6 @@ else
   katz_deli.each do |name|
 
     array << ("#{count += 1}. #{name}")
+
+end
+end
