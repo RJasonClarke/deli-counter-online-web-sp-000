@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line
+def line(people)
   puts "The line is currently empty."
 end
 
